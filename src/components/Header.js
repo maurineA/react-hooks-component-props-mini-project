@@ -1,10 +1,13 @@
-import React from "react";
+// Header.js
+
+import React from 'react';
 
 function Header(props) {
-    return (
-        <Header>
-            <h1>{props.blogname}</h1>
-        </Header>
-    )
+  return (
+    <header>
+      <h1>{props.blogName}</h1>
+    </header>
+  );
 }
-export default Header
+
+export default Header;
